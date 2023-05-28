@@ -6,7 +6,6 @@ void setup() {
 
 void loop() {
   timerESPNOW();
-  timerAccesorios();
   timerBaseRobot();
 }
 
