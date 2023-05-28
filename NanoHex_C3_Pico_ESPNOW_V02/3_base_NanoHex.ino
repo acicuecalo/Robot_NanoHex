@@ -30,12 +30,6 @@ void moverBaseRobot(int ejeX, int ejeY)  // Los valores de control de -100 a 100
     ejeY = 0;
   }
 
-  /*
-  // Mezclador
-  velocidadMotorIzquierdo = ejeY + ejeX;  //motorDelanteroIzquierdo
-  velocidadMotorDerecho = -ejeY + ejeX;   //motorDelanteroDerecho
-  */
-
   // Salidas
   if (ejeX > 50) {
     girarDerecha();
