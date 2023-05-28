@@ -16,16 +16,6 @@ const int subtrimServoDerecho = 90;
 
 void iniciarBaseRobot() {
   centrarServos();
-  /*
-  while (digitalRead(9)) {
-  }
-  */
-  //servoIzquierdoAvanza();
-  //servoIzquierdoRetrocede();
-  //servoCentralDerecha();
-  //servoCentralIzquierda();
-  //servoDerechoAvanza();
-  //servoDerechoRetrocede();
 }
 
 void moverBaseRobot(int ejeX, int ejeY)  // Los valores de control de -100 a 100
